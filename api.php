@@ -74,7 +74,7 @@ $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://api.stripe.com/v1/customers');
 curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
 curl_setopt($ch, CURLOPT_HEADER, 0);
-curl_setopt($ch, CURLOPT_USERPWD, $sec. ':' . '');
+// curl_setopt($ch, CURLOPT_USERPWD, $sec. ':' . '');
 curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 'content-type: application/x-www-form-urlencoded',));
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
